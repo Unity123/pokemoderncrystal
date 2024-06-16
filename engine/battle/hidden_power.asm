@@ -96,7 +96,6 @@ HiddenPowerDamage:
 	ld a, BATTLE_VARS_MOVE_TYPE
 	call GetBattleVarAddr
 	pop af
-	or SPECIAL
 	ld [hl], a
 
 ; Get the rest of the damage formula variables
