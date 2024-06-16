@@ -14,6 +14,7 @@ GetMoveCategoryName:
 ; move to range 0-2 by rotating left twice (1-3) and then decrementing
     rlc a
     rlc a
+    dec a
 
     ld hl, CategoryNames
     ld e, a
